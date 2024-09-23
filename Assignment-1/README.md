@@ -5,31 +5,24 @@ This project demonstrates six software design patterns using Java. The examples 
 ## Table of Contents
 
 Observer Pattern - Stock Price Monitor
-
 Strategy Pattern - Payment Processing
-
 Singleton Pattern - Configuration Manager
-
 Factory Pattern - Shape Factory
-
 Adapter Pattern - Payment Gateway Integration
-
 Decorator Pattern - Product Customization
+
 
 ### Observer Pattern - Stock Price Monitor
 
 Description
 
 The Observer Pattern defines a one-to-many dependency between objects where one object changes state and its dependents are notified automatically.
-
 This example simulates a stock price monitor where multiple displays update automatically when stock prices change.
 
-How to Run
+### How to Run
 
 Navigate to the observer directory.
-
 Compile and run ObserverPatternDemo.java.
-
 bashCopycd observer
 
 javac ObserverPatternDemo.java
@@ -41,15 +34,12 @@ java ObserverPatternDemo
 Description
 
 The Strategy Pattern allows selecting an algorithm at runtime. The pattern lets the algorithm vary independently from the clients that use it.
-
 This example showcases different payment strategies (CreditCard, PayPal) to process orders.
 
-How to Run
+### How to Run:
 
 Navigate to the strategy directory.
-
 Compile and run StrategyPatternDemo.java.
-
 bashCopycd strategy
 
 javac StrategyPatternDemo.java
@@ -61,10 +51,9 @@ java StrategyPatternDemo
 Description
 
 The Singleton Pattern ensures that a class has only one instance and provides a global point of access to it.
-
 This example implements a ConfigurationManager that holds application-wide settings.
 
-How to Run
+### How to Run
 
 Navigate to the singleton directory.
 Compile and run SingletonPatternDemo.java.
