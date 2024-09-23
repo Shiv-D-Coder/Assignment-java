@@ -1,8 +1,8 @@
-Design Patterns in Java
+### Design Patterns in Java
 
 This project demonstrates six software design patterns using Java. The examples are divided into three categories: Behavioral, Creational, and Structural patterns, each showcasing two use cases.
 
-Table of Contents
+## Table of Contents
 
 Observer Pattern - Stock Price Monitor
 
@@ -16,7 +16,7 @@ Adapter Pattern - Payment Gateway Integration
 
 Decorator Pattern - Product Customization
 
-Observer Pattern - Stock Price Monitor
+### Observer Pattern - Stock Price Monitor
 
 Description
 
@@ -36,7 +36,7 @@ javac ObserverPatternDemo.java
 
 java ObserverPatternDemo
 
-Strategy Pattern - Payment Processing
+### Strategy Pattern - Payment Processing
 
 Description
 
@@ -56,7 +56,7 @@ javac StrategyPatternDemo.java
 
 java StrategyPatternDemo
 
-Singleton Pattern - Configuration Manager
+### Singleton Pattern - Configuration Manager
 
 Description
 
@@ -67,36 +67,30 @@ This example implements a ConfigurationManager that holds application-wide setti
 How to Run
 
 Navigate to the singleton directory.
-
 Compile and run SingletonPatternDemo.java.
-
 bashCopycd singleton
 
 javac SingletonPatternDemo.java
-
 java SingletonPatternDemo
 
-Factory Pattern - Shape Factory
+### Factory Pattern - Shape Factory
 
 Description
 
 The Factory Pattern provides a way to create objects without exposing the creation logic to the client.
-
 This example demonstrates a shape factory that can create different shape objects (Circle, Square) based on user input.
 
 How to Run
 
 Navigate to the factory directory.
-
 Compile and run FactoryPatternDemo.java.
-
 bashCopycd factory
 
 javac FactoryPatternDemo.java
 
 java FactoryPatternDemo
 
-Adapter Pattern - Payment Gateway Integration
+### Adapter Pattern - Payment Gateway Integration
 
 Description
 
@@ -107,16 +101,14 @@ This example adapts an old payment system to work with a new payment gateway int
 How to Run
 
 Navigate to the adapter directory.
-
 Compile and run AdapterPatternDemo.java.
-
 bashCopycd adapter
 
 javac AdapterPatternDemo.java
 
 java AdapterPatternDemo
 
-Decorator Pattern - Product Customization
+### Decorator Pattern - Product Customization
 
 Description
 
@@ -127,16 +119,14 @@ This example demonstrates how a Product object can be enhanced with optional fea
 How to Run
 
 Navigate to the decorator directory.
-
 Compile and run DecoratorPatternDemo.java.
-
 bashCopycd decorator
 
 javac DecoratorPatternDemo.java
 
 java DecoratorPatternDemo
 
-Project Structure
+### Project Structure
 
 Copydesign-patterns/
 
@@ -212,8 +202,6 @@ Copydesign-patterns/
 
 └── README.md
 
-Requirements
+### Requirements
 
 Java 8 or higher
-
-Command-line interface (CLI) to compile and run the Java code
