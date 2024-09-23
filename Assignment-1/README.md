@@ -5,10 +5,15 @@ This project demonstrates six software design patterns using Java. The examples 
 ## Table of Contents
 
 Observer Pattern - Stock Price Monitor
+
 Strategy Pattern - Payment Processing
+
 Singleton Pattern - Configuration Manager
+
 Factory Pattern - Shape Factory
+
 Adapter Pattern - Payment Gateway Integration
+
 Decorator Pattern - Product Customization
 
 
