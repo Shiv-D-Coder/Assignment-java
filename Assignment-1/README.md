@@ -35,7 +35,7 @@ javac ObserverPatternDemo.java
 java ObserverPatternDemo
 ```
 
-### Strategy Pattern - Payment Processing
+## Strategy Pattern - Payment Processing
 
 The Strategy Pattern allows selecting an algorithm at runtime. The pattern lets the algorithm vary independently from the clients that use it.
 This example showcases different payment strategies (CreditCard, PayPal) to process orders.
@@ -52,7 +52,7 @@ javac StrategyPatternDemo.java
 java StrategyPatternDemo
 ```
 
-### Singleton Pattern - Configuration Manager
+## Singleton Pattern - Configuration Manager
 
 
 The Singleton Pattern ensures that a class has only one instance and provides a global point of access to it.
@@ -64,27 +64,29 @@ Navigate to the singleton directory.
 Compile and run SingletonPatternDemo.java.
 bashCopycd singleton
 
+```
 javac SingletonPatternDemo.java
 java SingletonPatternDemo
+```
 
-
-### Factory Pattern - Shape Factory
+## Factory Pattern - Shape Factory
 
 
 The Factory Pattern provides a way to create objects without exposing the creation logic to the client.
 This example demonstrates a shape factory that can create different shape objects (Circle, Square) based on user input.
 
-How to Run
+### How to Run
 
 Navigate to the factory directory.
 Compile and run FactoryPatternDemo.java.
 bashCopycd factory
 
+```
 javac FactoryPatternDemo.java
 java FactoryPatternDemo
+```
 
-
-### Adapter Pattern - Payment Gateway Integration
+## Adapter Pattern - Payment Gateway Integration
 
 The Adapter Pattern allows incompatible interfaces to work together by wrapping an object to fit the expected interface.
 This example adapts an old payment system to work with a new payment gateway interface.
@@ -95,11 +97,12 @@ Navigate to the adapter directory.
 Compile and run AdapterPatternDemo.java.
 bashCopycd adapter
 
+```
 javac AdapterPatternDemo.java
 java AdapterPatternDemo
+```
 
-
-### Decorator Pattern - Product Customization
+## Decorator Pattern - Product Customization
 
 The Decorator Pattern allows behavior to be added to individual objects, dynamically, without affecting the behavior of other objects from the same class.
 This example demonstrates how a Product object can be enhanced with optional features like gift wrapping and custom messages.
@@ -110,9 +113,10 @@ Navigate to the decorator directory.
 Compile and run DecoratorPatternDemo.java.
 bashCopycd decorator
 
+```
 javac DecoratorPatternDemo.java
 java DecoratorPatternDemo
-
+```
 
 
 ## Project Structure
