@@ -18,7 +18,7 @@ Decorator Pattern - Product Customization
 
 
 
-### Observer Pattern - Stock Price Monitor
+## Observer Pattern - Stock Price Monitor
 
 The Observer Pattern defines a one-to-many dependency between objects where one object changes state and its dependents are notified automatically.
 This example simulates a stock price monitor where multiple displays update automatically when stock prices change.
@@ -29,9 +29,11 @@ Navigate to the observer directory.
 Compile and run ObserverPatternDemo.java.
 bashCopycd observer
 
+```
 javac ObserverPatternDemo.java
-java ObserverPatternDemo
 
+java ObserverPatternDemo
+```
 
 ### Strategy Pattern - Payment Processing
 
@@ -44,9 +46,11 @@ Navigate to the strategy directory.
 Compile and run StrategyPatternDemo.java.
 bashCopycd strategy
 
+```
 javac StrategyPatternDemo.java
-java StrategyPatternDemo
 
+java StrategyPatternDemo
+```
 
 ### Singleton Pattern - Configuration Manager
 
